@@ -1,0 +1,37 @@
+[{
+	"cardColors": {
+		"bg": "#47C67B",
+		"imgbg": "#80EDAC",
+		"tagbg": "#8edbae",
+		"text": "#ffffff",
+		"textbg": "#66CF91"
+	},
+	"description": "Bulbasaur is a small quadruped Pokemon that has turquoise skin with darker teal patches. It has red eyes with white pupils and scleras. It also has pointed, ear-like structures on top of its head. Its snout is short and blunt.",
+	"name": "Bulbasaur",
+	"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+	"tag": "Grass"
+}, {
+	"cardColors": {
+		"bg": "#f88321",
+		"imgbg": "#ffb047",
+		"tagbg": "#fab275",
+		"text": "#ffffff",
+		"textbg": "#f99847"
+	},
+	"description": "Pikachu is a Mouse Pokemon and the evolved form of Pichu. Pikachu's tail is sometimes struck by lightning as it raises it to check its surroundings.",
+	"name": "Pikachu",
+	"sprite": "https://ksassets.timeincuk.net/wp/uploads/sites/55/2016/12/POTY_Pikachu_3.jpg",
+	"tag": "Electric"
+}, {
+	"cardColors": {
+		"bg": "#f88321",
+		"imgbg": "#ffb047",
+		"tagbg": "#fab275",
+		"text": "#ffffff",
+		"textbg": "#f99847"
+	},
+	"description": "Charizad is a bipedal, reptilian Pokemon with a primarily orange body. Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
+	"name": "Charizad",
+	"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+	"tag": "Fire/Flying"
+}]
