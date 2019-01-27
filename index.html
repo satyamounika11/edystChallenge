@@ -8,20 +8,20 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
 	<title>Pokemon Cards</title>
 </head>
-<body>
+<body ng-app="myApp">
 	<!-- <h2><center>Pokemon Cards</center></h2> -->
-	<div class="container">
-	<div class="row">
-		<div class="col-sm-4">
+	<div class="container" ng-controller="myCtrl">
+	<div class="row" ng-view>
+		<div class="col-sm-4" ng-repeat="pokemon in myData">
 		    <div class="pikachu">
-		      <h4>Pikachu</h4>
-		      <p class="textbackground">Pikachu is a Mouse Pokemon and the evolved form of Pichu. Pikachu's tail is sometimes struck by lightning as it raises it to check its surroundings.</p>
+		      <h4>{{pokemon.name}}</h4>
+		      <p class="textbackground">{{pokemon.description}}</p>
 		      <br><br>
-		      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" class="electric"/>
+		      <img ng-src={{pokemon.sprite}} class="electric"/>
 		    </div>
 		  </div>
 
-		  <div class="col-sm-4">
+		  <!-- <div class="col-sm-4">
 		    <div class="bulbasaur">
 		      <h4>Bulbasaur</h4>
 		      <p class="bulbasuartext">Bulbasaur is a small quadruped Pokemon that has turquoise skin with darker teal patches. It has red eyes with white pupils and scleras. It also has pointed, ear-like structures on top of its head. Its snout is short and blunt.</p>
@@ -36,8 +36,10 @@
 		      <br><br>
 		     <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png" class="fire" />
 		    </div>
-		  </div>  
+		  </div>   -->
 </div>
 </div>
+<script type="text/javascript" src="data.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </body>
 </html>
