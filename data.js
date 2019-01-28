@@ -3,8 +3,7 @@ app.controller('pokemonCtrl', function($scope, $http) {
   $http.get("https://dev-util.edyst.com/challenge/pokemons/random").then(function (response) {
       $scope.myData = response.data;
       /*$scope.image = {
-        'background-color' : '#f1f1f1',
-        'border-radius' : '50%'
+         'padding-bottom' : '10px'
       };*/
   });
 });
