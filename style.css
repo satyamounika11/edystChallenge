@@ -33,7 +33,8 @@
 	writing-mode: horizontal-tb; 
 	margin-left: 60px;
 	word-wrap: break-word;
-	/*text-align: center;*/
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 @media screen and (max-width: 600px) {
@@ -52,18 +53,19 @@
 	}
 .description{
 	border-radius: 25px;
-  	width: 300px;
+  	width: 280px;
   	height: 180px;
-    transform: rotate(-10deg);
+    transform: rotate(-9deg);
   }
 .context{
-	transform: rotate(10deg);
+	transform: rotate(9deg);
 	padding-top: 20px;
 }
 .matter{
 	writing-mode: horizontal-tb; 
 	margin-right: 10px;
-	word-wrap: break-word;
+	text-align: justify;
+	text-justify: inter-word;
 	}	
 }
 
