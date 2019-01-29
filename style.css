@@ -5,7 +5,7 @@
 .col-sm-4 {
   float: left;
   width: 33.33%;
-  text-align: center;
+  /*text-align: center;*/
   background-color: #ffffff;
   border: 15px solid #f1f1f1; 
   padding-top: 10px;
@@ -14,12 +14,26 @@
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 .description{
-	-ms-transform: rotate(-10deg); 
-  	-webkit-transform: rotate(-10deg);
-  	transform: rotate(-10deg); 
-  	border-radius:25px;
+	border-radius: 25px;
+	text-align: center;
+  	width: 310px;
+  	height: 200px;
+    transform: rotate(-9deg);
+   	margin-left: -5px;
+}.context{
+	transform: rotate(9deg);
+	padding-top: 20px;
+}
+.matter{
+	writing-mode: horizontal-tb; 
+	margin-left: 60px;
+	word-wrap: break-word;
+	/*text-align: center;*/
 }
 
 @media screen and (max-width: 600px) {
@@ -36,98 +50,24 @@
 		height: 200px;
 		border-radius: 50%;
 	}
-}
-
-
-
-
-
-/*.container{
-	background-color: #f1f1f1;
-	padding-top: 16px;
-	padding-bottom: 16px;
-}
-.col-sm-4 {
-  float: left;
-  width: 33.33%;
-  padding: 0 10px;
-}
-* {
-  box-sizing: border-box;
-}
-.card {
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-.bulbasaur{
-	background-color: #47C67B;
-	padding: 16px;
-  	text-align: center;
-  	color: #ffffff;
-}
-.pikachu{
-	background-color: #f88321;
-	padding: 16px;
-  	text-align: center;
-  	color: #ffffff;
-}
-.charizad{
-	background-color: #f88321;
-	padding: 16px;
-  	text-align: center;
-  	color: #ffffff;
-}
-.electric{
-	width: 300px;
-	height: 300px;
-	background-color: #ffb047;
-	border-radius: 50%;
-}
-.grass{
-	width: 300px;
-	height: 300px;
-	background-color: #80EDAC;
-	border-radius: 50%;
-}
-.fire{
-	width: 300px;
-	height: 300px;
-	background-color: #ffb047;
-	border-radius: 50%;
-}
-.textbackground{
-	background-color: #f99847;
-	border-radius: 15px;
-}
-.bulbasuartext{
-	background-color: #66CF91;
-	border-radius: 15px;
-}
-
-@media screen and (max-width: 600px) {
-  .col-sm-4 {
-    width: 100%;
-    display: block;
-    /*margin-bottom: 20px;*/
+.description{
+	border-radius: 25px;
+  	width: 300px;
+  	height: 180px;
+    transform: rotate(-10deg);
   }
-	  .electric{
-		width: 200px;
-		height: 200px;
-		background-color: #ffb047;
-		border-radius: 50%;
-	}
-	.grass{
-		width: 200px;
-		height: 200px;
-		background-color: #80EDAC;
-		border-radius: 50%;
-	}
-	.fire{
-		width: 200px;
-		height: 200px;
-		background-color: #ffb047;
-		border-radius: 50%;
-	}
+.context{
+	transform: rotate(10deg);
+	padding-top: 20px;
 }
-*/
+.matter{
+	writing-mode: horizontal-tb; 
+	margin-right: 10px;
+	word-wrap: break-word;
+	}	
+}
+
+
+
+
+
