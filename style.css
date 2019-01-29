@@ -15,7 +15,12 @@
 	height: 300px;
 	border-radius: 50%;
 }
-
+.description{
+	-ms-transform: rotate(-10deg); 
+  	-webkit-transform: rotate(-10deg);
+  	transform: rotate(-10deg); 
+  	border-radius:25px;
+}
 
 @media screen and (max-width: 600px) {
   .col-sm-4 {
@@ -24,7 +29,7 @@
     border: 0px solid #f1f1f1;
     padding-top: 10px;
     padding-bottom: 20px;
-    box-shadow: 5px 5px 10px 5px;
+    box-shadow: 5px 5px 15px 5px;
 }
  .cards{
 		width: 200px;
