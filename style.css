@@ -2,6 +2,9 @@
 	background-color: #f1f1f1;
 	box-sizing: border-box;
 }
+
+/* three columns */
+
 .col-sm-4 {
   float: left;
   width: 33.33%;
@@ -11,34 +14,51 @@
   padding-top: 10px;
    margin-right: -10px;
 }
+
+/*description box background*/
+
 .description{
 	border-radius: 25px;
 	text-align: center;
-  	width: 330px;
-  	height: 200px;
-    transform: rotate(-9deg);
-   	margin-left: -5px;
+  width: 330px;
+  height: 200px;
+  transform: rotate(-9deg);
+  margin-left: -5px;
 }
+
+/*description box container*/
+
 .context{
 	transform: rotate(9deg);
 	padding-top: 20px;
 }
+
+/*description box matter*/
+
 .matter{
 	writing-mode: horizontal-tb; 
 	margin-left: 60px;
 	word-wrap: break-word;
 	text-align: left;
 }
+
+/*style for images*/
+
 .cards{
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
 	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* mobile screen */
+
 @media screen and (max-width: 600px) {
+
+  /* three columns */
+
   .col-sm-4 {
     width: 100%;
     display: block;
@@ -47,28 +67,40 @@
     padding-bottom: 20px;
     box-shadow: 5px 5px 20px 5px;
 }
+
+/*description box background*/
+
  .description{
 	border-radius: 25px;
-  	width: 290px;
-  	height: 180px;
-    transform: rotate(-9deg);
-  }
+  width: 290px;
+  height: 180px;
+  transform: rotate(-9deg);
+}
+
+/*description box container*/
+
 .context{
 	transform: rotate(9deg);
 	padding-top: 20px;
 }
+
+/*description box matter*/
+
 .matter{
 	writing-mode: horizontal-tb; 
 	text-align: justify;
 	text-justify: inter-word;
 }
+
+/*style for images*/
+
 .cards{
 		width: 250px;
 		height: 250px;
 		border-radius: 50%;
 		display: block;
-  		margin-left: auto;
-  		margin-right: auto;
+  	margin-left: auto;
+  	margin-right: auto;
 }	
 }
 
