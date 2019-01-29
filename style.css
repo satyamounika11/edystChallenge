@@ -23,6 +23,8 @@
     display: block;
     border: 0px solid #f1f1f1;
     padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 10px 5px;
 }
  .cards{
 		width: 200px;
