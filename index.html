@@ -13,7 +13,7 @@
 <body>
 	<div class="container" ng-app="myApp" ng-controller="pokemonCtrl">
 	<div class="row"> 
- 		 <div class="col-4" ng-repeat="x in myData" ng-style="{'background-color': x.cardColors.bg, color: x.cardColors.text}">
+ 		 <div class="col-sm-4" ng-repeat="x in myData" ng-style="{'background-color': x.cardColors.bg, color: x.cardColors.text}">
     		<h4>{{x.name}}</h4><br/>
     		<div class = "description" ng-style="{'background-color': x.cardColors.textbg}">
     			<div class = "context" >
