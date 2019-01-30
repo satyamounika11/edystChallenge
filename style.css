@@ -6,12 +6,12 @@
 /* three columns */
 
 .col-sm-4 {
-  float: left;
-  width: 33.33%;
+  width: 100%;
   text-align: center;
   background-color: #ffffff;
   border: 15px solid #f1f1f1; 
   padding-top: 10px;
+  overflow: hidden;
 }
 
 /*description box background*/
@@ -20,25 +20,34 @@
 	border-radius: 25px;
 	text-align: center;
   width: 330px;
-  height: 200px;
+  height: 250px;
   transform: rotate(-9deg);
-  margin-left: -5px;
+  margin-left: -20px;
 }
 
 /*description box container*/
 
 .context{
 	transform: rotate(9deg);
-	padding-top: 20px;
+	/*padding-top: 20px;*/
+  text-align: center;
+}
+
+/* pokemon name */
+
+.name{
+  text-align: center;
+  margin-right: -5px;
+  padding-top: 20px;
 }
 
 /*description box matter*/
 
 .matter{
 	writing-mode: horizontal-tb; 
-	margin-left: 60px;
-	word-wrap: break-word;
-	text-align: left;
+	margin-right: 10px;
+  text-align: center;
+  padding:  30px;
 }
 
 /*style for images*/
