@@ -5,14 +5,13 @@
 
 /* three columns */
 
-.col-sm-4 {
+.col-4 {
   float: left;
   width: 33.33%;
   text-align: center;
   background-color: #ffffff;
   border: 15px solid #f1f1f1; 
   padding-top: 10px;
-   margin-right: -10px;
 }
 
 /*description box background*/
@@ -59,7 +58,7 @@
 
   /* three columns */
 
-  .col-sm-4 {
+  .col-4 {
     width: 100%;
     display: block;
     border: 0px solid #f1f1f1;
