@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 	<script type="text/javascript" src="data.js"></script>
 	<title>Pokemon Cards</title>
@@ -14,7 +15,14 @@
 	<div class="container" ng-app="myApp" ng-controller="pokemonCtrl">
 	<div class="row"> 
  		 <div class="col-sm-4" ng-repeat="x in myData" ng-style="{'background-color': x.cardColors.bg, color: x.cardColors.text}">
-    		<h4>{{x.name}}</h4><br/>
+    		<div class = "row">
+ 		 		<div class="col-sm-2 col-2">
+    				<span class = "badge" ng-style="{'background-color': x.cardColors.tagbg}">{{x.name}}</span><br/>
+    			</div>
+    			<div class="col-sm-10 col-10">
+    				<a><i class="fas fa-long-arrow-alt-right" style="margin-left: 225px;"></i></a>
+    			</div>
+    		</div></br>
     		<div class = "description" ng-style="{'background-color': x.cardColors.textbg}">
     			<div class = "context" >
     				<p id="matter">{{x.description}}</p><br/>
