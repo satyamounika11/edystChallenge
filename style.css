@@ -7,7 +7,6 @@
 
 .col-sm-4 {
   width: 100%;
-  text-align: center;
   background-color: #ffffff;
   border: 15px solid #f1f1f1; 
   padding-top: 10px;
@@ -18,8 +17,7 @@
 
 .description{
 	border-radius: 25px;
-	text-align: center;
-  width: 330px;
+	width: 330px;
   height: 250px;
   transform: rotate(-9deg);
   margin-left: -20px;
@@ -29,14 +27,20 @@
 
 .context{
 	transform: rotate(9deg);
-	/*padding-top: 20px;*/
-  text-align: center;
+}
+
+/* description box another container for paragraph*/
+
+.box{
+  width: 300px;
+  border: 15px;
+  padding: 10px;
+  margin: 10px;
 }
 
 /* pokemon name */
 
 .name{
-  text-align: center;
   margin-right: -5px;
   padding-top: 20px;
 }
