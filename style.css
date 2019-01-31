@@ -72,36 +72,55 @@
   /* three columns */
 
   .col-sm-4 {
+    overflow: hidden;
+    box-shadow: 5px 5px 15px 5px;
     width: 100%;
     display: block;
     border: 0px solid #f1f1f1;
     padding-top: 10px;
     padding-bottom: 20px;
-    box-shadow: 5px 5px 20px 5px;
+    box-shadow: 5px 5px 15px 5px;
 }
 
 /*description box background*/
 
  .description{
-	border-radius: 25px;
-  width: 290px;
-  height: 180px;
-  transform: rotate(-9deg);
+	 border-radius: 25px;
+   width: 250px;
+   height: 250px;
+   transform: rotate(-9deg);
+   margin-left: -10px;
 }
 
 /*description box container*/
 
 .context{
 	transform: rotate(9deg);
-	padding-top: 20px;
+}
+
+/* description content*/
+.box{
+  width: 250px;
+  height: 250px;
+  border: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+
+/*pokemon name */
+
+.name{
+  margin-right: -5px;
+  padding-top: 10px;
 }
 
 /*description box matter*/
 
 .matter{
 	writing-mode: horizontal-tb; 
-	text-align: justify;
-	text-justify: inter-word;
+  margin-right: 5px;
+  text-align: center;
+  padding:  10px;
 }
 
 /*style for images*/
